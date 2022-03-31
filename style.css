@@ -47,7 +47,7 @@ body
     background: #333333;
 }
 
-.display-screen #screen 
+.display #screen 
 {
     margin-bottom: .3em;
     width: 350px;
