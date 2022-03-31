@@ -1,5 +1,5 @@
-var screen=document.querySelector('#screen');
-var btn=document.querySelectorAll('.btn');
+const screen=document.querySelector('#screen');
+const btn=document.querySelectorAll('.btn');
 
 for(item of btn)
 {
@@ -56,7 +56,7 @@ function pi()
 
 function fact()
 {
-    var i, num, f;
+    let i, num, f;
     f=1
     num=screen.value;
     for(i=1; i<=num; i++)

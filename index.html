@@ -8,38 +8,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="display">
+        <div class="display-screen">
             <input id="screen" type="text" placeholder="0" />
         </div>
         
-        <div class="btns">
         <div class="row">
             <button class="science" onclick="fact()">x!</button>
             <button class="btn science">%</button>
             <button class="science" id="ac" onclick="screen.value=''">AC</button>
-            <button class="science" id="science ce" onclick="backspc()">CE</button>
+            <button class="science" id="science ce" onclick="backspc()">DEL</button>
         </div>
             
-        <div class="btns">
-            <div class="row">
-                <button class="science" onclick="sin()">sin</button>
-                <button class="science" onclick="cos()">cos</button>
-                <button class="science" onclick="tan()">tan</button>
-                <button class="science" onclick="pi()">π</button>
-            </div>
+        <div class="row">
+            <button class="science" onclick="sin()">sin</button>
+            <button class="science" onclick="cos()">cos</button>
+            <button class="science" onclick="tan()">tan</button>
+            <button class="science" onclick="pi()">π</button>
         </div>
             
-        <div class="btns">
-            <div class="row">
-                <button class="science" onclick="log()">log</button>
-                <button class="science" onclick="sqrt()">√</button>
-                <button class="science" class="science" onclick="pow()">
-                    x
-                    <span style="position: relative; bottom: 0.4em; right: 0.1em"
-                    >2</span
-                    ></button>
-                    <button class="btn operator">÷</button>
-            </div>
+        <div class="row">
+            <button class="science" onclick="log()">log</button>
+            <button class="science" onclick="sqrt()">√</button>
+            <button class="science" class="science" onclick="pow()">
+                x
+                <span style="position: relative; bottom: 0.4em; right: 0.1em"
+                >2</span
+                ></button>
+                <button class="btn operator">÷</button>
         </div>
             
         <div class="row">
@@ -68,7 +63,7 @@
           <button class="btn">00</button>
           <button class="btn">0</button>
           <button class="btn">.</button>
-          <button class="operator" id="eval" onclick="screen.value=eval(screen.value)">=</button>
+          <button class="operator" onclick="screen.value=eval(screen.value)">=</button>
         </div>
       </div>
     </div>
